@@ -1702,10 +1702,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir
+  m_text: 退出
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2011,10 +2011,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Victoria!
+  m_text: 胜利！
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -4765,10 +4765,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: The Final Boss
+  m_text: 最终Boss
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5397,10 +5397,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score Total:'
+  m_text: '总分:'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -31025,8 +31025,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -31198,8 +31198,8 @@ PrefabInstance:
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: "Kailius, este es el peor enemigo al que te deber\xE1s enfrenar as\xED
-        que"
+      value: "凯琉斯，这是你将面对的最可怕的敌人，所以
+        你必须展现出所有的本领。"
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
@@ -31214,17 +31214,17 @@ PrefabInstance:
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: "deber\xE1s de demostrar toda tu destreza para poder derrotarlo."
+      value: "用你全部的力量击败它！"
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: 'Puedes ver la vida que le queda al enemigo en su barra de salud. '
+      value: '你可以在敌人头顶的生命条上看到它剩余的血量。'
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: Ten mucho cuidado Kailius!
+      value: 多加小心，凯琉斯！
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}

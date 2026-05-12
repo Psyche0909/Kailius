@@ -53778,7 +53778,7 @@ PrefabInstance:
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: Menos mal que llegaste sano y salvo Kailius. Estas casi a punto de terminar,
+      value: 幸好你平安到达了，凯琉斯。你快要完成了，
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
@@ -53793,12 +53793,12 @@ PrefabInstance:
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: "veo que est\xE1s recuperando muchas joyas robadas, no te olvides "
+      value: "我看到你正在夺回很多被盗的宝物，别忘了"
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: recuperar las estrellas. Nos veremos pronto! Ten mucho cuidado.
+      value: 夺回星星。我们很快会再见的！多加小心。
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}

@@ -119,16 +119,16 @@ MonoBehaviour:
   dialogue:
     name: Instructor1
     sentenceList:
-    - "Se\xF1or Kailius, unos monstruos nos robaron todas nuestras joyas que teniamos!"
-    - Necesitamos tu ayuda para recuperar nuestras joyas. No te olvides de
-    - "nuestras estrellas es nuestra joya m\xE1s valiosa y solo tenemos tres."
-    - 'Para poder moverte utliza ''A'', ''D'' y para saltar utiliza el ''Space'' '
-    - Tambien llevaras una espada y un arco con el que poder defenderte.
-    - La espada la podras utilizar con la 'F' y el arco con la tecla 'C'
-    - "Recuerda que el arco es m\xE1s poderoso que la espada pero debes cargarlo"
-    - utilizando la espada.
-    - "Te dar\xE9 como misi\xF3n recoger 150 monedas, 60 gemas y 3 estrellas."
-    - Ten mucho cuidado caballero!
+    - "凯琉斯先生，一群怪物偷走了我们所有的宝石！"
+    - "我们需要你的帮助来夺回我们的宝物。别忘了"
+    - "我们的星星是最珍贵的宝物，我们只有三颗。"
+    - "'使用 ''A''、''D'' 键移动，使用 ''空格键'' 跳跃'"
+    - "你还将携带一把剑和一把弓来自卫。"
+    - "剑用 ''F'' 键使用，弓用 ''C'' 键使用"
+    - "记住弓比剑更强大，但需要用剑来蓄力"
+    - "蓄力后才能射出。"
+    - "我给你的任务是收集 150 枚金币、60 颗宝石和 3 颗星星。"
+    - "多加小心，骑士！"
   dialoguePanel: {fileID: 0}
   displayText: {fileID: 0}
   typingSpeed: 0.05

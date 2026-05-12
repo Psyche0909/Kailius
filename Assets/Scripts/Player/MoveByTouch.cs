@@ -22,9 +22,11 @@ public class MoveByTouch : MonoBehaviour {
     private bool rotacionD = false;
 
 
-    // Start is called before the first frame update
     void Start() {
-        
+        if (ControlesMoviles != null)
+        {
+            ControlesMoviles.SetActive(Application.isMobilePlatform);
+        }
     }
 
     // Update is called once per frame

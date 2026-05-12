@@ -23961,7 +23961,7 @@ PrefabInstance:
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[0]
-      value: 'Menos mal que llegaste Kailius, la cosa se esta poniendo cada vez peor. '
+      value: '幸好你来了，凯琉斯。情况越来越糟糕了。'
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
@@ -23976,22 +23976,22 @@ PrefabInstance:
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[1]
-      value: 'Veo que ya has empezado a recoger nuestras joyas pero no son '
+      value: '我看到你已经开始收集我们的宝物了，但还不够'
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[2]
-      value: "suficientes necesitas recoger m\xE1s. Y una cosa m\xE1s necesitas"
+      value: "你还需要收集更多。还有一件事，你需要"
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[3]
-      value: "matar a m\xE1s monstrous para conseguir mejoras de ataque y defensa"
+      value: "击杀更多怪物来获得攻击和防御的提升"
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}
       propertyPath: dialogue.sentenceList.Array.data[4]
-      value: "para poder avanzar mas r\xE1pido. Hasta la pr\xF3xima!"
+      value: "这样才能更快前进。下次见！"
       objectReference: {fileID: 0}
     - target: {fileID: 3442526987920200451, guid: 3876bcac13172324bbe556cc1205a467,
         type: 3}

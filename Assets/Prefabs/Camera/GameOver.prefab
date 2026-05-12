@@ -63,12 +63,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Game Over
+  m_text: '游戏结束
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -326,8 +326,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -695,10 +695,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: '
+  m_text: '分数: '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -851,10 +851,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Jugar
+  m_text: 开始游戏
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d22c986e05eac53b8bc884c1372fa019, type: 2}
-  m_sharedMaterial: {fileID: 2938824943303827316, guid: d22c986e05eac53b8bc884c1372fa019,
+  m_fontAsset: {fileID: 11400000, guid: b13d1fce78e67a44db0ccefa5ff7f885, type: 2}
+  m_sharedMaterial: {fileID: 2938824943303827316, guid: b13d1fce78e67a44db0ccefa5ff7f885,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
