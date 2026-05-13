@@ -38,10 +38,14 @@ public class PlayerCombat : MonoBehaviour {
         
         // Resta el daño
         foreach(Collider2D enemy in hitEnemies) {
-            enemy.GetComponent<Enemy>().TakeDamage(Stats.instance.getAttackDamage());
+            Enemy enemyComponent = enemy.GetComponent<Enemy>();
+            if (enemyComponent != null) {
+                enemyComponent.TakeDamage(Stats.instance.getAttackDamage());
+            }
 
-            if(GetComponent<Stats>().getPower() != 4)
-                GetComponent<Stats>().takePower(1);
+            Stats playerStats = GetComponent<Stats>();
+            if (playerStats != null && playerStats.getPower() != 4)
+                playerStats.takePower(1);
 
             break;
         }

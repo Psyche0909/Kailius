@@ -52,7 +52,7 @@ public class Chest : MonoBehaviour {
             Instantiate(sword, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3.0f, gameObject.transform.position.z), Quaternion.identity);
         }
 
-        for (int i = 0; i < numSwords; i++) {
+        for (int i = 0; i < numShields; i++) {
             Instantiate(shield, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 3.0f, gameObject.transform.position.z), Quaternion.identity);
         }
 

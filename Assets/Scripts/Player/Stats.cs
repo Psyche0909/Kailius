@@ -102,7 +102,7 @@ public class Stats : MonoBehaviour {
             case int n when (n >= 100 && n < 110): hearts.sprite = heart100; break;
             case int n when (n >= 90 && n < 100):  hearts.sprite = heart90; break;
             case int n when (n >= 80 && n < 90):   hearts.sprite = heart80; break;
-            case int n when (n >= 70 && n <= 80):  hearts.sprite = heart70; break;
+            case int n when (n >= 70 && n < 80):   hearts.sprite = heart70; break;
             case int n when (n >= 60 && n < 70):   hearts.sprite = heart60; break;
             case int n when (n >= 50 && n < 60):   hearts.sprite = heart50; break;
             case int n when (n >= 40 && n < 50):   hearts.sprite = heart40; break;

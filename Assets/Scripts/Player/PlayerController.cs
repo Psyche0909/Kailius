@@ -140,7 +140,7 @@ public class PlayerController : MonoBehaviour {
     }
 
     public bool isDead() {
-        return this.dead = true;
+        return this.dead;
     }
 
     void CreateDust() {
