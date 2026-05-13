@@ -9,9 +9,7 @@ public class MapBoundary : MonoBehaviour
     {
         Tilemap tilemap = GetComponent<Tilemap>();
         if (tilemap == null)
-        {
             tilemap = FindObjectOfType<Tilemap>();
-        }
         if (tilemap == null) return;
 
         CreateBoundaryWalls(tilemap);
@@ -45,7 +43,11 @@ public class MapBoundary : MonoBehaviour
         GameObject wall = new GameObject(name);
         wall.transform.SetParent(parent.transform);
         wall.transform.position = position;
+
         BoxCollider2D col = wall.AddComponent<BoxCollider2D>();
         col.size = size;
+        col.isTrigger = true;
+
+        wall.AddComponent<BoundaryWall>();
     }
 }
