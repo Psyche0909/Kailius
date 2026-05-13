@@ -57,20 +57,25 @@ public class Enemy : MonoBehaviour {
         int numSwords = Random.Range(0, maxSwords);
         int numShields = Random.Range(0, maxShields);
 
-        for (int i = 0; i < numCoins; i++) {
-            Instantiate(coins, new Vector3(gameObject.transform.position.x - 1.0f, gameObject.transform.position.y + 2.0f, gameObject.transform.position.z), Quaternion.identity);
-        }
+        float baseX = gameObject.transform.position.x;
+        float baseY = gameObject.transform.position.y + 2.0f;
+        float baseZ = gameObject.transform.position.z;
 
-        for (int i = 0; i < numHearts; i++) {
-            Instantiate(hearts, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 2.0f, gameObject.transform.position.z), Quaternion.identity);
-        }
+        SpawnItems(coins, numCoins, baseX, baseY, baseZ);
+        SpawnItems(hearts, numHearts, baseX, baseY, baseZ);
+        SpawnItems(sword, numSwords, baseX, baseY, baseZ);
+        SpawnItems(shield, numShields, baseX, baseY, baseZ);
+    }
 
-        for (int i = 0; i < numSwords; i++) {
-            Instantiate(sword, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 2.0f, gameObject.transform.position.z), Quaternion.identity);
-        }
-
-        for (int i = 0; i < numShields; i++) {
-            Instantiate(shield, new Vector3(gameObject.transform.position.x, gameObject.transform.position.y + 2.0f, gameObject.transform.position.z), Quaternion.identity);
+    void SpawnItems(GameObject prefab, int count, float x, float y, float z) {
+        for (int i = 0; i < count; i++) {
+            float scatterX = Random.Range(-1.5f, 1.5f);
+            GameObject item = Instantiate(prefab, new Vector3(x + scatterX, y, z), Quaternion.identity);
+            Rigidbody2D rb = item.GetComponent<Rigidbody2D>();
+            if (rb != null) {
+                rb.gravityScale = 0;
+                rb.velocity = Vector2.zero;
+            }
         }
     }
 
